@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 31, 2024 at 07:17 PM
+-- Generation Time: Oct 31, 2024 at 07:59 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -156,10 +156,10 @@ CREATE TABLE `product_claims` (
 --
 
 INSERT INTO `product_claims` (`claim_id`, `order_id`, `product_id`, `claim_time`, `status`) VALUES
-(4, 7, 1, '2024-10-31 17:32:43', ''),
-(5, 8, 1, '2024-10-31 17:40:35', ''),
-(6, 8, 3, '2024-10-31 17:40:35', ''),
-(7, 8, 4, '2024-10-31 17:40:35', '');
+(4, 7, 1, '2024-10-31 17:32:43', 'pending'),
+(5, 8, 1, '2024-10-31 17:40:35', 'pending'),
+(6, 8, 3, '2024-10-31 17:40:35', 'pending'),
+(7, 8, 4, '2024-10-31 17:40:35', 'pending');
 
 -- --------------------------------------------------------
 
